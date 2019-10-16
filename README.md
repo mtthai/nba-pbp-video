@@ -31,7 +31,8 @@ nba.playByPlay({GameID: '0021800848'}).then(function(data){
 ...
 AvailableVideo: { VIDEO_AVAILABLE_FLAG: 1 }
 ```
-
 A VIDEO_AVAILABLE_FLAG at the end of the PBP data will indicate if there's video available for the game.
+
+GAME_IDs can be found in https://github.com/mtthai/nba-pbp-video/blob/master/schedule.json as "gid".
 
 *VIDEO PLAY-BY-PLAY ONLY INCLUDES 2019-2020 SEASON
