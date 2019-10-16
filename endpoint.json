@@ -1,0 +1,16 @@
+{
+    "play_by_play": {
+        "desc": "Play by play data for a given game",
+        "params": {
+            "EndPeriod": "10",
+            "EndRange": "55800",
+            "GameID": "",
+            "RangeType": "2",
+            "Season": "2019-20",
+            "SeasonType": "Regular+Season",
+            "StartPeriod": "1",
+            "StartRange": "0"
+        },
+        "url": "https://stats.nba.com/stats/playbyplayv2"
+    }
+}
