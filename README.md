@@ -1,12 +1,12 @@
 # nba-pbp-video
 
-Gets nba.com play-by-play videos from the 2019-20 season. For a working example, visit: https://mtthai.github.io/nba-play-viewer/
+Gets nba.com play-by-play videos from the 2019-20 season. 
+For a working example, visit: https://mtthai.github.io/nba-play-viewer/
 
 Ex:
 
 ```js
-  
-nba.getPBPVideoURL({EventNum: 731, GameID: '0021800848', Size: '1280x720'}).then(function(data){
+nba.getPBPVideoURL({EventNum: 731, GameID: '0021800848'}).then(function(data){
 //'https://videos.nba.com/nba/pbp/media/2019/10/04/0011900002/16/cb0cc0c6-dcdc-d88a-3acd-50885b09263a_1280x720.mp4'
 ```
 An EventNum is a singular event (made/miss shot, foul, turnover, etc.) in play by play data:
