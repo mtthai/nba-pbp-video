@@ -1,7 +1,6 @@
 # nba-pbp-video
 
 Gets nba.com play-by-play videos from the 2019-20 season. 
-For a working example, visit: https://mtthai.github.io/nba-play-viewer/
 
 Ex:
 
