@@ -6,7 +6,9 @@ Ex:
 
 ```js
 nba.getPBPVideoURL({EventNum: 31, GameID: '0011900002'}).then(function(data){
+  console.log(data);
 //'https://videos.nba.com/nba/pbp/media/2019/10/04/0011900002/31/aaed3664-88f2-a056-beca-d2411ab59c9a_1280x720.mp4'
+});
 ```
 An EventNum is a singular event (made/miss shot, foul, turnover, etc.) in play by play data:
 
