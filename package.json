@@ -1,6 +1,6 @@
 {
     "name": "nba-pbp-video",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Gets play-by-play video url from nba.com",
     "license": "MIT",
     "repository": "mtthai/nba-pbp-video",
